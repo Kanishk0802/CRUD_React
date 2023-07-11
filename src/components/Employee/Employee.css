@@ -1,0 +1,113 @@
+.employee {
+  margin-top: 12px;
+  color: black;
+}
+
+.employeeSub {
+  display: flex;
+}
+
+.employeeDetails {
+  height: 48px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 22% 19% 19% 19% 10%;
+}
+
+.personnelNo {
+  margin-left: 34px;
+}
+
+.btnEmployee {
+  padding: 12px 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: #262a9e;
+  color: white;
+  font-size: 16px;
+  margin-right: 76px;
+  cursor: pointer;
+}
+
+.submitBtn {
+  margin-left: 194px;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.form-control {
+  border: none;
+  margin-top: 12px;
+  margin-right: 69px;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
+  width: 142px;
+  font-size: 14px;
+}
+
+.deleteAll {
+  position: absolute;
+  bottom: 12px;
+  right: -55px;
+}
+
+.deleteModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: whitesmoke;
+  width: 400px;
+  height: 150px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+
+  z-index: 100;
+  padding-bottom: 12px;
+}
+
+.overlayDeleteModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.deleteModalBtns {
+  display: flex;
+  margin-left: 88px;
+}
+
+.errorModal{
+  position: absolute;
+  width: 500px;
+  height: 70px;
+  background-color: lightcoral;
+  border-radius: 6px;
+  top: 67px;
+  transform: translate(-50%, 0);
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
