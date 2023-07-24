@@ -1,0 +1,29 @@
+.header {
+  background-color: #262a9e;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100vw;
+  height: 24px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.register {
+  display: flex;
+}
+
+.logo {
+  margin-left: 34px;
+}
+
+.signUp {
+  margin-right: 34px;
+  cursor: pointer;
+}
+
+.logIn {
+  margin-right: 34px;
+  cursor: pointer;
+}
